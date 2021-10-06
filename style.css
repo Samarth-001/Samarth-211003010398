@@ -1,0 +1,300 @@
+*{
+    font-family: Montserrat;
+}
+
+body{
+    background-image: url("../images/background.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;    
+}
+
+.topnav{
+    background-color: rgba(0, 0, 0, 0.027);
+    margin-left: 105px;
+    border-radius: 10px;
+    margin-right: 120px;
+}
+
+#topbuttons a{
+    
+    padding: 20px;
+    text-decoration: none;
+    color: black;
+}
+
+#topbuttons{
+    width: 320px;
+    font-size: 17px;
+    margin-top: 39px;
+    text-align: center;
+    margin-left: 310px;
+}
+
+#topbuttons a:hover{
+    font-size: 21px;
+}
+
+#portfolio{
+    padding-left: 15px;
+    font-size: 32px;
+    margin-bottom: 100px;
+    text-decoration: underline;
+}
+
+#Name , #post, .pad{
+    padding-left: 120px;
+}
+
+#Name{
+    font-size: 26px;
+    margin-bottom: 0%;
+}
+
+#post{
+    font-size: 23px;
+    margin-top: 10px;    
+}
+
+#slogan{
+    padding-left: 120px;
+    font-size: 70px;
+    margin-top: 30px;
+    margin-right: 120px;   
+}
+
+#about{
+    font-size: 32px;
+}
+
+#profile{
+    width: 610px;
+    height: 400px;
+    padding-left: 120px;
+    border-radius: 5px;
+}
+
+#ainfo{
+    text-align: justify;
+    margin-right: 120px;
+    font-size: 23px;
+    line-height: 30px;
+    margin-top: 0%;
+    margin-bottom: 190px;
+    margin-left: 20px;
+}
+
+#skillh{
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+#sinfo{
+    text-align: justify;
+    line-height: 30px;
+    font-size: 23px;
+    width: 112%;
+}
+
+#sabstract{
+    width: 25%;
+    margin-left: 255px;
+    margin-bottom: 150px;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+#pr1{
+    width: 610px;
+    height: 402.9px;
+    border-radius: 5px;
+}
+
+#p1set1{
+    font-size: 20px;
+    text-align: center;
+    margin-bottom: 0px;
+    margin-left: 90px;
+}
+
+#p1set2{
+    text-align: center;
+    font-size: 18px;
+    margin-top: 5px;
+    color: grey;
+    margin-left: 90px;
+    margin-bottom: 100px;
+}
+
+#p1text{
+    text-align: justify;
+    margin-top: 5px;
+    font-size: 23px;
+    line-height: 33px;
+    margin-right: 120px;
+    margin-left: 20px;
+}
+
+#p2text{
+    text-align: justify;
+    font-size: 23px;
+    line-height: 33px;
+    padding-left: 120px;
+    width: 82%;
+    /* margin-left: 20px; */
+}
+
+#p2set1{
+    text-align: center;
+    font-size: 20px;
+    margin-bottom: 0px;
+    margin-right: 100px;
+}
+
+#p2set2{
+    text-align: center;
+    font-size: 18px;
+    margin-top: 5px;
+    color: grey;
+    margin-bottom: 100px;
+    margin-right: 100px;
+}
+
+#pr2{
+    width: 610px;
+    height: 402.19px;
+    margin-left: 20px;
+    border-radius: 5px;
+}
+
+
+#pr3{
+    width: 610px;
+    height: 402.9px;
+    padding-left: 120px;
+    border-radius: 5px;
+}
+
+#p3set1{
+    font-size: 20px;
+    text-align: center;
+    margin-left: 90px;
+    margin-bottom: 0px;
+}
+
+#p3set2{
+    margin-top: 5px;
+    text-align: center;
+    margin-left: 90px;
+    font-size: 18px;
+    color: grey;
+}
+
+#pr4{
+    width: 610px;
+    height: 402.9px;
+    margin-left: 20px;
+    border-radius: 5px;
+}
+
+#p4set1{
+    margin-right: 100px;
+    text-align: center;
+    font-size: 20px;
+}
+#p4set2{
+    margin-right: 100px;
+    text-align: center;
+    font-size: 18px;
+    color: grey;
+}
+
+.experience{
+    margin-left: 120px;
+}
+
+#exptext{
+    margin-right: 120px;
+    font-size: 23px;
+    text-align: justify;
+    margin-bottom: 100px;
+}
+
+.form{
+    margin-top: 0px;
+    padding-top: 1px;
+    padding-left: 15px;
+    margin-left: 105px;
+    margin-right: 120px;
+    background-color: rgba(214, 212, 188, 0.644);
+    border-radius: 10px;
+    border: 1px solid rgb(170, 170, 160);
+    font-size: 23px;
+    padding-bottom: 75px;
+}
+
+.form fieldset{
+    background-color:  white;
+    width: 93.5%;
+}
+
+#last1{
+    margin-bottom: 0px;
+}
+
+#last2{
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+input[type="text"],
+input[type="email"],
+textarea
+{
+    width: 95.4%;
+    border-radius: 4px;
+    padding: 5px;
+}
+
+input[type="submit"]
+{
+    background-color: rgba(5, 5, 5, 0.575);
+    color:white;
+    padding: 8px 42px;
+    font-size: 15px;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+input[type="submit"]:hover{
+    background-color: rgba(5, 5, 5, 0.932);
+        
+}
+
+#links{
+    margin-top: 30px;
+    margin-left: 1095px;
+}
+
+#links a{
+    
+    font-size: 18px;
+    padding: 9px;
+    text-decoration: none;
+    color: rgb(10, 10, 151);
+}
+
+#links a:hover{
+    color: black;
+}
+
+.row:after{
+    content:"";
+    display: table;
+    clear: both;
+}
+
+.column
+{
+    float: left;
+    width: 50%;
+}
